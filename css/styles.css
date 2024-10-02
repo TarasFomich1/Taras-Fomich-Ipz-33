@@ -1,3 +1,13 @@
+:root {
+    --black: #212121;
+    --white: #ffffff;
+    --footer_color: #2f303a;
+    --blue: #2196f3;
+    --grey: #757575;
+    --like_white: #f5f4fa;
+    --fonts: "Roboto";
+}
+
 *{
 
 	margin: 0;
@@ -11,24 +21,26 @@ body {
 }
 .logo{
 
-	color:blue;
+	color: #2196F3;
+;
 	text-decoration: none;
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 30.52px;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 }
 .logo span{
 
-	color: black;
+	color:  #000000;
+;
 }
 .nav a{
 text-decoration: none;
 color:  #212121;
 font-weight: 500;
 font-size: 14px;
-line-height: 16.41px;
+line-height: 1.17;
 letter-spacing: 0.02em;
 
 }
@@ -38,10 +50,11 @@ color: blue;
 }
 .header-contacts a{
 	text-decoration: none;
-color: #212121;
+color:  #757575;
+;
 font-weight: 500;
 font-size: 14px;
-line-height: 16.41px;
+line-height: 1.17;
 letter-spacing: 0.02em;
 
 	
@@ -64,21 +77,20 @@ letter-spacing: 0.02em;
 	color:  #FFFFFF;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
    letter-spacing: 0.06em;
 
 }
 
  .buttons{
-width: 200px;
-height: 50px;
+
 border-radius: 4px;
 background: #2196F3;
 	color :  #FFFFFF;
 	
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.87;
 	letter-spacing: 0.06em;
 
 	
@@ -96,14 +108,14 @@ background: #2196F3;
 	color: #212121;
 font-weight: 700;
 font-size: 14px;
-line-height: 16.41px;
+line-height: 1.17;
 letter-spacing: 3%;
 }
 .text p{
 	color:  #757575;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 .text1{
@@ -115,14 +127,14 @@ letter-spacing: 0.03em;
 	color: #212121;
 font-weight: 700;
 font-size: 14px;
-line-height: 16.41px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .text1 p{
 	color:  #757575;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -137,14 +149,14 @@ letter-spacing: 0.03em;
 	color: #212121;
 font-weight: 700;
 font-size: 14px;
-line-height: 16.41px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .text2 p{
 	color:  #757575;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 .text3{
@@ -158,14 +170,14 @@ letter-spacing: 0.03em;
 	color: #212121;
 font-weight: 700;
 font-size: 14px;
-line-height: 16.41px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .text3 p{
 	color:  #757575;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 .gallery{
@@ -183,7 +195,7 @@ left: 215px; */
 
 font-weight: 700;
 font-size: 36px;
-line-height: 42.19px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 
@@ -200,18 +212,18 @@ top: 1446px;*/
 
 font-weight: 700;
 font-size: 36px;
-line-height: 42.19px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 
 
 }
-.team1 h1{
+.team1 h3{
 
 	color: #212121;
 font-weight: 500;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing:0.03em;
 
 
@@ -221,16 +233,16 @@ letter-spacing:0.03em;
 	color: #757575;
 font-weight: 400;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 }
-.team2 h1{
+.team2 h3{
 
 	color: #212121;
 font-weight: 500;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 
@@ -239,15 +251,15 @@ letter-spacing: 0.03em;
 	color: #757575;
 font-weight: 400;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 }
-.team3 h1{
+.team3 h3{
 
 	color: #212121;
 font-weight: 500;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing:0.03em;
 
 
@@ -258,16 +270,16 @@ letter-spacing:0.03em;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing:0.03em;
 
 }
-.team4 h1{
+.team4 h3{
 
 	color: #212121;
 font-weight: 500;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 
@@ -277,7 +289,7 @@ letter-spacing: 0.03em;
 	color: #757575;
 font-weight: 400;
 font-size: 16px;
-line-height: 18.75px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 }
@@ -290,11 +302,12 @@ letter-spacing: 0.03em;
 }
 .logos{
 	text-decoration: none;
-	color: blue;
+	color: #2196F3;
+;
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 30.52px;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 }
 .logos span{
@@ -302,9 +315,9 @@ letter-spacing: 0.03em;
 }
 .a p{
 	color: #fff;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing:0.03em;
 
 }
@@ -312,9 +325,9 @@ letter-spacing: 0.03em;
 
 	text-decoration: none;
 	color:  #FFFFFF99;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.03em;
 
 }
@@ -331,7 +344,8 @@ letter-spacing: 0.03em;
     border: none; 
     padding: 10px 20px; 
     border-radius: 5px; 
-    cursor: pointer; 
+    cursor: pointer;
+    font-family: Roboto; 
     font-size: 16px; 
     transition: background-color 0.3s, color 0.3s; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -354,14 +368,14 @@ letter-spacing: 0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing:0.06em;
 }
 .item1 p {
 color: #757575;
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 
 }
@@ -369,7 +383,7 @@ letter-spacing: 0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 
 }
@@ -377,7 +391,7 @@ letter-spacing: 0.06em;
 color: #757575;
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing:0.03em;
 
 }
@@ -385,7 +399,7 @@ letter-spacing:0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 }
 .item3 p {
@@ -393,7 +407,7 @@ color: #757575;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 
 }
@@ -401,7 +415,7 @@ letter-spacing: 0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing:0.06em;
 
 }
@@ -410,7 +424,7 @@ color: #757575;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 
 }
@@ -418,7 +432,7 @@ letter-spacing: 0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 
 }
@@ -427,7 +441,7 @@ color: #757575;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 
 }
@@ -435,7 +449,7 @@ letter-spacing: 0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 
 }
@@ -444,7 +458,7 @@ color: #757575;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 
 }
@@ -452,7 +466,7 @@ letter-spacing: 0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 
 }
@@ -461,14 +475,14 @@ color: #757575;
 ;
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 }
 .item8 h3 {
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing:0.06em;
 
 }
@@ -477,7 +491,7 @@ color: #757575;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing:0.03em;
 
 }
@@ -485,7 +499,7 @@ letter-spacing:0.03em;
 color:  #212121;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 
 }
@@ -494,7 +508,7 @@ color: #757575;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height:1.87;
 letter-spacing: 0.03em;
 
 }
