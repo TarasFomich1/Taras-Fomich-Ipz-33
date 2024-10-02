@@ -26,7 +26,6 @@ body {
 .nav a{
 text-decoration: none;
 color:  #212121;
-font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
 line-height: 16.41px;
@@ -40,7 +39,6 @@ color: blue;
 .header-contacts a{
 	text-decoration: none;
 color: #212121;
-font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
 line-height: 16.41px;
@@ -64,7 +62,6 @@ letter-spacing: 0.02em;
 
  .back  {
 	color:  #FFFFFF;
-font-family: Roboto;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -78,7 +75,7 @@ height: 50px;
 border-radius: 4px;
 background: #2196F3;
 	color :  #FFFFFF;
-	font-family: Roboto;
+	
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
@@ -97,7 +94,6 @@ background: #2196F3;
 }
 .text h3{
 	color: #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 14px;
 line-height: 16.41px;
@@ -105,7 +101,6 @@ letter-spacing: 3%;
 }
 .text p{
 	color:  #757575;
-font-family: Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -118,7 +113,6 @@ letter-spacing: 0.03em;
 
 .text1 h3{
 	color: #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 14px;
 line-height: 16.41px;
@@ -126,7 +120,6 @@ letter-spacing: 0.03em;
 }
 .text1 p{
 	color:  #757575;
-font-family: Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -142,7 +135,6 @@ letter-spacing: 0.03em;
 }
 .text2 h3{
 	color: #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 14px;
 line-height: 16.41px;
@@ -150,7 +142,6 @@ letter-spacing: 0.03em;
 }
 .text2 p{
 	color:  #757575;
-font-family: Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -165,7 +156,6 @@ letter-spacing: 0.03em;
 }
 .text3 h3{
 	color: #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 14px;
 line-height: 16.41px;
@@ -173,7 +163,6 @@ letter-spacing: 0.03em;
 }
 .text3 p{
 	color:  #757575;
-font-family: Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -192,7 +181,6 @@ left: 215px; */
 	left: 627PX; */ 
 	color:  #212121;
 
-font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
 line-height: 42.19px;
@@ -210,7 +198,6 @@ top: 1446px;*/
 .text5{
 	color:  #212121;
 
-font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
 line-height: 42.19px;
@@ -222,7 +209,6 @@ letter-spacing: 0.03em;
 .team1 h1{
 
 	color: #212121;
-	font-family: Roboto;
 font-weight: 500;
 font-size: 16px;
 line-height: 18.75px;
@@ -233,7 +219,6 @@ letter-spacing:0.03em;
 }
 .team1 p{
 	color: #757575;
-		font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 18.75px;
@@ -243,7 +228,6 @@ letter-spacing: 0.03em;
 .team2 h1{
 
 	color: #212121;
-	font-family: Roboto;
 font-weight: 500;
 font-size: 16px;
 line-height: 18.75px;
@@ -253,7 +237,6 @@ letter-spacing: 0.03em;
 }
 .team2 p{
 	color: #757575;
-		font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 18.75px;
@@ -262,7 +245,6 @@ letter-spacing: 0.03em;
 .team3 h1{
 
 	color: #212121;
-	font-family: Roboto;
 font-weight: 500;
 font-size: 16px;
 line-height: 18.75px;
@@ -273,7 +255,7 @@ letter-spacing:0.03em;
 }
 .team3 p{
 	color: #757575;
-		font-family: Roboto;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 18.75px;
@@ -283,7 +265,6 @@ letter-spacing:0.03em;
 .team4 h1{
 
 	color: #212121;
-	font-family: Roboto;
 font-weight: 500;
 font-size: 16px;
 line-height: 18.75px;
@@ -294,7 +275,6 @@ letter-spacing: 0.03em;
 }
 .team4 p{
 	color: #757575;
-		font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 18.75px;
@@ -322,7 +302,6 @@ letter-spacing: 0.03em;
 }
 .a p{
 	color: #fff;
-	font-family: Roboto;
 	font-weight: 400px;
 	font-size: 14px;
 	line-height: 16px;
@@ -333,7 +312,6 @@ letter-spacing: 0.03em;
 
 	text-decoration: none;
 	color:  #FFFFFF99;
-	font-family: Roboto;
 	font-weight: 400px;
 	font-size: 14px;
 	line-height: 16px;
@@ -348,7 +326,6 @@ letter-spacing: 0.03em;
 }
 
 .bu button {
-	font-family: Roboto;
     background: #F5F4FA; 
     color: #212121; 
     border: none; 
@@ -375,7 +352,6 @@ letter-spacing: 0.03em;
 }
 .item1 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -383,8 +359,6 @@ letter-spacing:0.06em;
 }
 .item1 p {
 color: #757575;
-
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -393,7 +367,6 @@ letter-spacing: 0.03em;
 }
 .item2 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -402,8 +375,6 @@ letter-spacing: 0.06em;
 }
 .item2 p {
 color: #757575;
-
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -412,7 +383,6 @@ letter-spacing:0.03em;
 }
 .item3 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -421,7 +391,6 @@ letter-spacing: 0.06em;
 .item3 p {
 color: #757575;
 
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -430,7 +399,6 @@ letter-spacing: 0.03em;
 }
 .item4 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -440,7 +408,6 @@ letter-spacing:0.06em;
 .item4 p {
 color: #757575;
 
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -449,7 +416,6 @@ letter-spacing: 0.03em;
 }
 .item5 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -459,7 +425,6 @@ letter-spacing: 0.06em;
 .item5 p {
 color: #757575;
 
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -468,7 +433,6 @@ letter-spacing: 0.03em;
 }
 .item6 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -478,7 +442,6 @@ letter-spacing: 0.06em;
 .item6 p {
 color: #757575;
 
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -487,7 +450,6 @@ letter-spacing: 0.03em;
 }
 .item7 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -496,8 +458,7 @@ letter-spacing: 0.06em;
 }
 .item7 p {
 color: #757575;
-
-font-family: Roboto;
+;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -505,7 +466,6 @@ letter-spacing: 0.03em;
 }
 .item8 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -515,7 +475,6 @@ letter-spacing:0.06em;
 .item8 p {
 color: #757575;
 
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -524,7 +483,6 @@ letter-spacing:0.03em;
 }
 .item9 h3 {
 color:  #212121;
-font-family: Roboto;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -534,7 +492,6 @@ letter-spacing: 0.06em;
 .item9 p {
 color: #757575;
 
-font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
