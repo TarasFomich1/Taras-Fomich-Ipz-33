@@ -42,7 +42,7 @@ body {
 }
 .nav a{
 text-decoration: none;
-color:  #212121;
+color:  var(--black);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.17;
