@@ -5,6 +5,9 @@
     --blue: #2196f3;
     --grey: #757575;
     --like_white: #f5f4fa;
+    --f:#333;
+    --a:#000000;
+    --b: #007BFF;
     --fonts: "Roboto";
 }
 
@@ -15,13 +18,15 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color:var(--f);
     line-height: 1.6;
     margin: 0;
 }
+
+
 .logo{
 
-	color: #2196F3;
+	color: var(--blue);
 ;
 	text-decoration: none;
 	font-family: Raleway;
@@ -32,7 +37,7 @@ body {
 }
 .logo span{
 
-	color:  #000000;
+	color:  var(--a);
 ;
 }
 .nav a{
@@ -43,14 +48,16 @@ font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.02em;
 
+
 }
 .nav a:hover{
-color: blue;
+color: var(--blue);
+
 
 }
 .header-contacts a{
 	text-decoration: none;
-color:  #757575;
+color:  var(--grey);
 ;
 font-weight: 500;
 font-size: 14px;
@@ -62,19 +69,17 @@ letter-spacing: 0.02em;
 }
 .header-contacts a:hover{
 
-	color: blue;
+	color: var(--blue);
 }
 .hero{
- background: #2F303A; 
- width: 1600px;
- height: 600px;
- top:80px;
+ background: var(--footer_color); 
+ 
 
 
 }
 
  .back  {
-	color:  #FFFFFF;
+	color:  var(--white);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -85,9 +90,9 @@ line-height: 1.36;
  .buttons{
 
 border-radius: 4px;
-background: #2196F3;
-	color :  #FFFFFF;
-	
+background: var(--blue);
+	color :  var(--white);
+	font-family: Roboto;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -105,14 +110,14 @@ background: #2196F3;
 	left: 215PX; */
 }
 .text h3{
-	color: #212121;
+	color: var(--black);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 3%;
 }
 .text p{
-	color:  #757575;
+	color:  var(--grey);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -124,14 +129,14 @@ letter-spacing: 0.03em;
 	left: 515PX; */}
 
 .text1 h3{
-	color: #212121;
+	color: var(--black);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .text1 p{
-	color:  #757575;
+	color:  var(--grey);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -146,14 +151,14 @@ letter-spacing: 0.03em;
 
 }
 .text2 h3{
-	color: #212121;
+	color: var(--black);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .text2 p{
-	color:  #757575;
+	color:  var(--grey);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -167,14 +172,14 @@ letter-spacing: 0.03em;
 
 }
 .text3 h3{
-	color: #212121;
+color: var(--black);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .text3 p{
-	color:  #757575;
+	color:  var(--grey);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -191,7 +196,7 @@ left: 215px; */
 	height: 42px;
 	top:966px;
 	left: 627PX; */ 
-	color:  #212121;
+	color:  var(--black);
 
 font-weight: 700;
 font-size: 36px;
@@ -208,7 +213,7 @@ top: 1446px;*/
 
 }
 .text5{
-	color:  #212121;
+	color:  var(--black);
 
 font-weight: 700;
 font-size: 36px;
@@ -220,7 +225,7 @@ letter-spacing: 0.03em;
 }
 .team1 h3{
 
-	color: #212121;
+	color: var(--black);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
@@ -230,7 +235,7 @@ letter-spacing:0.03em;
 
 }
 .team1 p{
-	color: #757575;
+	color: var(--grey);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.17;
@@ -239,7 +244,7 @@ letter-spacing: 0.03em;
 }
 .team2 h3{
 
-	color: #212121;
+		color: var(--black);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
@@ -248,7 +253,7 @@ letter-spacing: 0.03em;
 
 }
 .team2 p{
-	color: #757575;
+color: var(--grey);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.17;
@@ -256,7 +261,7 @@ letter-spacing: 0.03em;
 }
 .team3 h3{
 
-	color: #212121;
+		color: var(--black);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
@@ -266,7 +271,7 @@ letter-spacing:0.03em;
 
 }
 .team3 p{
-	color: #757575;
+	color: var(--grey);
 
 font-weight: 400;
 font-size: 16px;
@@ -276,7 +281,7 @@ letter-spacing:0.03em;
 }
 .team4 h3{
 
-	color: #212121;
+		color: var(--black);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
@@ -286,7 +291,7 @@ letter-spacing: 0.03em;
 
 }
 .team4 p{
-	color: #757575;
+	color: var(--grey);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.17;
@@ -294,15 +299,13 @@ letter-spacing: 0.03em;
 
 }
 .footer{
-	background: #2F303A;
-	width: 1600px;
-	height: 251px;
-	top: 2094px;
+	background: var(--footer_color);
+
 
 }
 .logos{
 	text-decoration: none;
-	color: #2196F3;
+	color: var(--blue);
 ;
 	font-family: Raleway;
 	font-weight: 700;
@@ -311,20 +314,20 @@ letter-spacing: 0.03em;
 	letter-spacing: 0.03em;
 }
 .logos span{
-	color: #fff;
+	color: var(--white);
 }
 .a p{
-	color: #fff;
+	color: var(--white);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing:0.03em;
-
+	text-decoration: none;
 }
 .a a{
 
 	text-decoration: none;
-	color:  #FFFFFF99;
+	color:  var(--grey);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.14;
@@ -339,12 +342,13 @@ letter-spacing: 0.03em;
 }
 
 .bu button {
-    background: #F5F4FA; 
-    color: #212121; 
+    background: var(--like_white); 
+    color: var(--black); 
     border: none; 
     padding: 10px 20px; 
     border-radius: 5px; 
     cursor: pointer;
+    font-weight: 500;
     font-family: Roboto; 
     font-size: 16px; 
     transition: background-color 0.3s, color 0.3s; 
@@ -352,8 +356,8 @@ letter-spacing: 0.03em;
 }
 
 .bu button:hover {
-    background-color: #007BFF; 
-    color: white; 
+    background-color: var(--b); 
+    color: var(--white); 
 }
 
 .bu button:active {
@@ -361,154 +365,21 @@ letter-spacing: 0.03em;
 }
 
 .bu button.active {
-    background-color: #007BFF; /
-    color: white; 
+    background-color:var(--b) ; 
+    color: var(--white); 
 }
 .item1 h3 {
-color:  #212121;
+color:  var(--black);
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing:0.06em;
 }
 .item1 p {
-color: #757575;
+color: var(--grey);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 
-}
-.item2 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
 
-}
-.item2 p {
-color: #757575;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing:0.03em;
-
-}
-.item3 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-}
-.item3 p {
-color: #757575;
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-
-}
-.item4 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing:0.06em;
-
-}
-.item4 p {
-color: #757575;
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-
-}
-.item5 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-
-}
-.item5 p {
-color: #757575;
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-
-}
-.item6 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-
-}
-.item6 p {
-color: #757575;
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-
-}
-.item7 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-
-}
-.item7 p {
-color: #757575;
-;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-}
-.item8 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing:0.06em;
-
-}
-.item8 p {
-color: #757575;
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing:0.03em;
-
-}
-.item9 h3 {
-color:  #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-
-}
-.item9 p {
-color: #757575;
-
-font-weight: 400;
-font-size: 16px;
-line-height:1.87;
-letter-spacing: 0.03em;
-
-}
