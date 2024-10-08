@@ -8,7 +8,7 @@
     --f:#333;
     --a:#000000;
     --b: #007BFF;
-    --fonts: "Roboto";
+    --font: 'Roboto', sans-serif;
 }
 
 *{
@@ -17,7 +17,7 @@
 	padding: 0;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font);
     color:var(--f);
     line-height: 1.6;
     margin: 0;
@@ -29,7 +29,7 @@ body {
 	color: var(--blue);
 ;
 	text-decoration: none;
-	font-family: Raleway;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.17;
@@ -92,7 +92,7 @@ line-height: 1.36;
 border-radius: 4px;
 background: var(--blue);
 	color :  var(--white);
-	font-family: Roboto;
+	font-family: var(--font);
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -109,31 +109,12 @@ background: var(--blue);
 	top:774px;
 	left: 215PX; */
 }
-.text h3{
-	color: var(--black);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.17;
-letter-spacing: 3%;
-}
-.text p{
-	color:  var(--grey);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-}
-.text1{
-/*	height: 74px;
-	top:774px;
-	left: 515PX; */}
-
 .text1 h3{
 	color: var(--black);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;
-letter-spacing: 0.03em;
+letter-spacing: 3%;
 }
 .text1 p{
 	color:  var(--grey);
@@ -143,55 +124,19 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.text2{
- /* width: 270px;
-	height: 74px;
-	top:774px;
-	left: 815PX; */
 
-}
-.text2 h3{
-	color: var(--black);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
-.text2 p{
-	color:  var(--grey);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-}
-.text3{
-  /* width: 270px;
-	height: 74px;
-	top:774px;
-	left: 1115PX; */
 
-}
-.text3 h3{
-color: var(--black);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
-.text3 p{
-	color:  var(--grey);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-}
+
+
+
+
 .gallery{
  /* height: 386px;
 top: 966px;
 left: 215px; */
 
 }
-.text4{
+.text1{
  /*width: 366px;
 	height: 42px;
 	top:966px;
@@ -242,66 +187,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 
 }
-.team2 h3{
 
-		color: var(--black);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-
-
-}
-.team2 p{
-color: var(--grey);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
-.team3 h3{
-
-		color: var(--black);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.17;
-letter-spacing:0.03em;
-
-
-
-}
-.team3 p{
-	color: var(--grey);
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.17;
-letter-spacing:0.03em;
-
-}
-.team4 h3{
-
-		color: var(--black);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-
-
-
-}
-.team4 p{
-	color: var(--grey);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-
-}
 .footer{
 	background: var(--footer_color);
-
-
 }
 .logos{
 	text-decoration: none;
@@ -316,13 +204,17 @@ letter-spacing: 0.03em;
 .logos span{
 	color: var(--white);
 }
+.a {
+	font-style: normal;
+}
+
 .a p{
 	color: var(--white);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing:0.03em;
-	text-decoration: none;
+
 }
 .a a{
 
@@ -349,7 +241,7 @@ letter-spacing: 0.03em;
     border-radius: 5px; 
     cursor: pointer;
     font-weight: 500;
-    font-family: Roboto; 
+    font-family: var(--font); 
     font-size: 16px; 
     transition: background-color 0.3s, color 0.3s; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
