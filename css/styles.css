@@ -40,6 +40,21 @@ body {
 	color:  var(--a);
 ;
 }
+header {
+	border-bottom: 2px solid var(--grey); 
+    display: flex;
+    justify-content: space-between; /* Розташування елементів header по боках */
+    align-items: center;
+    padding: 20px 50px;
+    background-color: var(--white);
+}
+
+.nav ul {
+    display: flex; /* Використовуємо flex для горизонтального розташування елементів */
+    gap: 30px; /* Відступи між елементами меню */
+    list-style-type: none; /* Видаляємо маркери списку */
+}
+
 .nav a{
 text-decoration: none;
 color:  var(--black);
@@ -71,37 +86,51 @@ letter-spacing: 0.02em;
 
 	color: var(--blue);
 }
-.hero{
- background: var(--footer_color); 
- 
 
-
+.hero {
+    background: var(--footer_color); /* Встановлюємо фон */
+    text-align: center; /* Центруємо текст */
+    padding: 100px 20px; /* Додаємо внутрішні відступи (вгорі і внизу) */
 }
 
- .back  {
-	color:  var(--white);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-   letter-spacing: 0.06em;
-
+.back {
+    color: var(--white); /* Колір тексту заголовка */
+    font-weight: 900; /* Товщина шрифту заголовка */
+    font-size: 44px; /* Розмір шрифту заголовка */
+    line-height: 1.36; /* Висота рядка заголовка */
+    letter-spacing: 0.06em; /* Відстань між літерами заголовка */
 }
 
- .buttons{
-
-border-radius: 4px;
-background: var(--blue);
-	color :  var(--white);
-	font-family: var(--font);
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.87;
-	letter-spacing: 0.06em;
-
-	
-
-
+.buttons {
+    border-radius: 4px; /* Округлення кутів кнопки */
+    background: var(--blue); /* Колір фону кнопки */
+    color: var(--white); /* Колір тексту кнопки */
+    font-family: var(--font); /* Шрифт для кнопки */
+    font-weight: 700; /* Товщина шрифту кнопки */
+    font-size: 16px; /* Розмір шрифту кнопки */
+    line-height: 1.87; /* Висота рядка кнопки */
+    letter-spacing: 0.06em; /* Відстань між літерами кнопки */
+    margin-top: 20px; /* Відступ зверху для кнопки */
 }
+
+.services {
+    padding: 50px 20px; /* Внутрішні відступи для секції */
+}
+
+.services ul {
+    display: flex; /* Використовуємо flexbox для вирівнювання елементів */
+    justify-content: space-between; /* Вирівнюємо елементи по горизонталі з рівними проміжками */
+    flex-wrap: wrap; /* Дозволяємо переносити елементи на новий ряд, якщо не вистачає місця */
+    list-style-type: none; /* Прибираємо маркери списку */
+    padding: 0; /* Прибираємо відступи у списку */
+}
+
+.text1 {
+    width: calc(25% - 20px); /* Встановлюємо ширину елементів списку, враховуючи проміжок */
+    margin: 10px; /* Додаємо зовнішній відступ для елементів списку */
+    text-align: center; /* Центруємо текст у елементах */
+}
+
 
 .text{
 	/* width: 270px;
@@ -128,6 +157,33 @@ letter-spacing: 0.03em;
 
 
 
+.gallery {
+    padding: 50px 20px; /* Внутрішні відступи для секції */
+    text-align: center; /* Центруємо заголовок секції */
+}
+
+.gallery h2 {
+    font-weight: 700; /* Товщина шрифту заголовка */
+    font-size: 36px; /* Розмір шрифту заголовка */
+    margin-bottom: 30px; /* Відступ знизу заголовка */
+}
+
+.gallery ul {
+    display: flex; /* Використовуємо flexbox для вирівнювання елементів */
+    justify-content: center; /* Центруємо елементи по горизонталі */
+    list-style-type: none; /* Прибираємо маркери списку */
+    padding: 0; /* Прибираємо відступи у списку */
+}
+
+.gallery li {
+    margin: 0 10px; /* Додаємо зовнішній відступ для елементів */
+}
+
+.gallery img {
+    max-width: 100%; /* Забезпечуємо адаптивність зображень */
+    height: auto; /* Зберігаємо пропорції зображення */
+    border-radius: 8px; /* Додаємо заокруглення країв зображення */
+}
 
 
 .gallery{
@@ -150,6 +206,50 @@ letter-spacing: 0.03em;
 
 
 }
+.team {
+    padding: 50px 20px; /* Внутрішні відступи для секції */
+    text-align: center; /* Центруємо текст у секції */
+    background-color: #f5f5f5; /* Задаємо колір фону */
+}
+
+
+.team h2 {
+    font-weight: 700; /* Товщина шрифту заголовка */
+    font-size: 36px; /* Розмір шрифту заголовка */
+    margin-bottom: 30px; /* Відступ знизу заголовка */
+}
+
+.team ul {
+    display: flex; /* Використовуємо flexbox для вирівнювання елементів */
+    justify-content: center; /* Центруємо елементи по горизонталі */
+    list-style-type: none; /* Прибираємо маркери списку */
+    padding: 0; /* Прибираємо відступи у списку */
+}
+
+.team1 {
+    margin: 0 15px; /* Додаємо зовнішній відступ для кожного члена команди */
+    text-align: center; /* Центруємо текст для членів команди */
+}
+
+.team1 img {
+    max-width: 100%; /* Забезпечуємо адаптивність зображень */
+    height: auto; /* Зберігаємо пропорції зображення */
+   /* Додаємо заокруглення країв для зображень */
+}
+
+.team1 h3 {
+    color: var(--black); /* Колір тексту для імені */
+    font-weight: 500; /* Товщина шрифту для імені */
+    font-size: 18px; /* Розмір шрифту для імені */
+    margin: 10px 0 5px; /* Відступи для імені */
+}
+
+.team1 p {
+    color: var(--grey); /* Колір тексту для посади */
+    font-weight: 400; /* Товщина шрифту для посади */
+    font-size: 14px; /* Розмір шрифту для посади */
+}
+
 
 .team{
  /* width: 1600px;
@@ -186,10 +286,14 @@ font-size: 16px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 
-}
+} 
 
 .footer{
 	background: var(--footer_color);
+	    padding: 20px 0; /* Додаємо відступи зверху та знизу */
+	    padding-left: 215px;
+	    margin-top:94px; 
+  
 }
 .logos{
 	text-decoration: none;
@@ -204,8 +308,12 @@ letter-spacing: 0.03em;
 .logos span{
 	color: var(--white);
 }
+
 .a {
 	font-style: normal;
+	  color: var(--white); /* Задаємо колір тексту */
+	  padding: 10px;
+
 }
 
 .a p{
@@ -224,6 +332,8 @@ letter-spacing: 0.03em;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
+	display: block;
+	padding: 5px;
 
 }
 .bu {
@@ -238,6 +348,7 @@ letter-spacing: 0.03em;
     color: var(--black); 
     border: none; 
     padding: 10px 20px; 
+    margin-top:94px;
     border-radius: 5px; 
     cursor: pointer;
     font-weight: 500;
@@ -260,6 +371,40 @@ letter-spacing: 0.03em;
     background-color:var(--b) ; 
     color: var(--white); 
 }
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Три стовпці */
+  grid-gap: 30px; /* Відстань між елементами */
+  margin-top: 34px;
+  padding: 0 215px; /* Лівий і правий відступи для всієї сітки */
+ 
+}
+
+.portfolio-items.item1{
+border-radius :2px;
+border-color: var(--grey);
+
+}
+
+
+
+.portfolio-items .item1 img {
+  border-radius:2px;
+   border-color: var(--grey);
+  width: 100%; /* Зображення на всю ширину елемента */
+  height: auto; /* Зберігаємо пропорції зображення */
+  }
+
+.portfolio-items .item1 h3 {
+  margin-top: 10px;
+}
+
+.portfolio-items .item1 p {
+  margin-bottom: 0;
+}
+
+
 .item1 h3 {
 color:  var(--black);
 font-weight: 700;
