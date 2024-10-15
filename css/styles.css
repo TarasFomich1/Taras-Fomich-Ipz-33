@@ -21,27 +21,34 @@ body {
     color:var(--f);
     line-height: 1.6;
     margin: 0;
+
 }
 
 
 .logo{
 
 	color: var(--blue);
-;
+
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
+    padding-left: 215px;
+   
+
+  
 }
 .logo span{
 
 	color:  var(--a);
-;
+
 }
+
+
 header {
-	border-bottom: 2px solid var(--grey); 
+	border-bottom: 2px solid rgba(117,117,117,0.3);
     display: flex;
     justify-content: space-between; /* Розташування елементів header по боках */
     align-items: center;
@@ -53,6 +60,7 @@ header {
     display: flex; /* Використовуємо flex для горизонтального розташування елементів */
     gap: 30px; /* Відступи між елементами меню */
     list-style-type: none; /* Видаляємо маркери списку */
+    margin-left: 45px; 
 }
 
 .nav a{
@@ -91,6 +99,7 @@ letter-spacing: 0.02em;
     background: var(--footer_color); /* Встановлюємо фон */
     text-align: center; /* Центруємо текст */
     padding: 100px 20px; /* Додаємо внутрішні відступи (вгорі і внизу) */
+    margin-bottom: 94px;
 }
 
 .back {
@@ -115,6 +124,8 @@ letter-spacing: 0.02em;
 
 .services {
     padding: 50px 20px; /* Внутрішні відступи для секції */
+    margin-bottom: 94px;
+    padding:  0 215px;
 }
 
 .services ul {
@@ -160,6 +171,8 @@ letter-spacing: 0.03em;
 .gallery {
     padding: 50px 20px; /* Внутрішні відступи для секції */
     text-align: center; /* Центруємо заголовок секції */
+    margin-bottom: 94px;
+     padding:  0 215px;
 }
 
 .gallery h2 {
@@ -183,6 +196,7 @@ letter-spacing: 0.03em;
     max-width: 100%; /* Забезпечуємо адаптивність зображень */
     height: auto; /* Зберігаємо пропорції зображення */
     border-radius: 8px; /* Додаємо заокруглення країв зображення */
+ margin: 15px;
 }
 
 
@@ -207,9 +221,11 @@ letter-spacing: 0.03em;
 
 }
 .team {
-    padding: 50px 20px; /* Внутрішні відступи для секції */
+	     margin-bottom:94px ; 
+    padding: 0 215px; /* Внутрішні відступи для секції */
     text-align: center; /* Центруємо текст у секції */
     background-color: #f5f5f5; /* Задаємо колір фону */
+  
 }
 
 
@@ -234,7 +250,8 @@ letter-spacing: 0.03em;
 .team1 img {
     max-width: 100%; /* Забезпечуємо адаптивність зображень */
     height: auto; /* Зберігаємо пропорції зображення */
-   /* Додаємо заокруглення країв для зображень */
+  margin: 15px;
+
 }
 
 .team1 h3 {
@@ -292,8 +309,17 @@ letter-spacing: 0.03em;
 	background: var(--footer_color);
 	    padding: 20px 0; /* Додаємо відступи зверху та знизу */
 	    padding-left: 215px;
-	    margin-top:94px; 
+	    
+
   
+}
+.footer p{
+    margin-bottom: 12px;
+
+}
+.footer a{
+    margin:6px;
+
 }
 .logos{
 	text-decoration: none;
@@ -304,6 +330,8 @@ letter-spacing: 0.03em;
 	font-size: 26px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
+    margin-top: 60px;
+    margin-bottom: 28px;
 }
 .logos span{
 	color: var(--white);
@@ -340,7 +368,9 @@ letter-spacing: 0.03em;
     display: flex; 
     justify-content: center; 
     gap: 10px; 
-    padding: 20px 0; 
+  
+    
+    margin-bottom: 34px;
 }
 
 .bu button {
@@ -373,10 +403,12 @@ letter-spacing: 0.03em;
 }
 
 .portfolio-items {
+
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Три стовпці */
   grid-gap: 30px; /* Відстань між елементами */
   margin-top: 34px;
+  margin-bottom: 94px;
   padding: 0 215px; /* Лівий і правий відступи для всієї сітки */
  
 }
@@ -394,6 +426,7 @@ border-color: var(--grey);
    border-color: var(--grey);
   width: 100%; /* Зображення на всю ширину елемента */
   height: auto; /* Зберігаємо пропорції зображення */
+  margin:15px;
   }
 
 .portfolio-items .item1 h3 {
@@ -411,6 +444,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing:0.06em;
+
 }
 .item1 p {
 color: var(--grey);
