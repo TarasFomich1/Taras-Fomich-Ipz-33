@@ -199,11 +199,12 @@ display: flex;
 text-align: center;
 padding-right: 215px;
 padding-left:215px;
-padding-bottom: 94px;
+padding-bottom: 47px;
 }
 .gallery h2{
 
     padding-bottom: 50px;
+    font-size: 36px;
 }
 
 .gallery ul{
@@ -247,7 +248,9 @@ padding-left: 70px;
 display: flex;
 flex-direction: column;
  background-color: var( --like_white);
-padding:94px 215px;
+padding:0px 215px;
+padding-top: 47px;
+padding-bottom: 94px;
 
 
 }
