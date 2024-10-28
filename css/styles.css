@@ -1,4 +1,4 @@
-:root {
+ :root {
     --black: #212121;
     --white: #ffffff;
     --footer_color: #2f303a;
@@ -12,33 +12,69 @@
 }
 
 *{
+    margin: 0;
+    padding: 0;
+}
 
-	margin: 0;
-	padding: 0;
+*, *::before, *::after {
+    box-sizing:     border-box; 
 }
 body {
     font-family: var(--font);
     color:var(--f);
     line-height: 1.6;
     margin: 0;
+ 
+
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+header{
+    
+    border-bottom: 1px solid #eee;
+    background: var(--white);
+}
 
+header .container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.nav{
+    margin-left: 93px;
+}
+.nav ul {
+display: flex;
+gap:50px;
+
+
+}
+.nav li{
+
+     list-style: none;
+}
 .logo{
 
-	color: var(--blue);
-;
-	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
+    color: var(--blue);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+   
 }
 .logo span{
 
-	color:  var(--a);
-;
+    color:  var(--a);
+
 }
 .nav a{
 text-decoration: none;
@@ -49,37 +85,64 @@ line-height: 1.17;
 letter-spacing: 0.02em;
 
 
+
 }
 .nav a:hover{
 color: var(--blue);
 
 
 }
+
+.header-contacts{
+display: flex;
+margin-left: auto   ;
+gap:40px;
+
+}
 .header-contacts a{
-	text-decoration: none;
+    text-decoration: none;
 color:  var(--grey);
-;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.02em;
 
-	
+    
 
 }
 .header-contacts a:hover{
 
-	color: var(--blue);
+    color: var(--blue);
 }
 .hero{
  background: var(--footer_color); 
- 
+ height: 600px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+text-align: center;
+ justify-content: center;
+
 
 
 }
 
+
+
+
+
+
+.hero h1{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
  .back  {
-	color:  var(--white);
+    color:  var(--white);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -87,37 +150,54 @@ line-height: 1.36;
 
 }
 
+
  .buttons{
+    border:none;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px, 4px,4px, 0px rgba(0,0,0,0.15);
+    background: var(--blue);
+    color :  var(--white);
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 
-border-radius: 4px;
-background: var(--blue);
-	color :  var(--white);
-	font-family: var(--font);
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.87;
-	letter-spacing: 0.06em;
-
-	
+    
 
 
 }
 
-.text{
-	/* width: 270px;
-	height: 98px;
-	top:774px;
-	left: 215PX; */
+
+.services {
+  
+     padding:94px 0px;
+}
+.services ul {
+    list-style-type: none; /* Видалити маркери списку */
+    display: flex; 
+    gap :30px;
+}
+
+.services li {
+    flex: 1; /* Встановлюємо рівну ширину для кожного елементу */
+    
+    text-align: left; 
 }
 .text1 h3{
-	color: var(--black);
+    padding-bottom: 10px;
+    color: var(--black);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 3%;
 }
 .text1 p{
-	color:  var(--grey);
+    color:  var(--grey);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -131,17 +211,30 @@ letter-spacing: 0.03em;
 
 
 .gallery{
- /* height: 386px;
-top: 966px;
-left: 215px; */
+display: flex;
+ flex-direction: column;
+text-align: center;
+
+padding-bottom: 94px;
+}
+.gallery h2{
+
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.gallery ul{
+   list-style-type: none; /* Видалити маркери списку */
+    display: flex; 
+    gap:30px;
 
 }
 .text1{
  /*width: 366px;
-	height: 42px;
-	top:966px;
-	left: 627PX; */ 
-	color:  var(--black);
+    height: 42px;
+    top:966px;
+    left: 627PX; */ 
+    color:  var(--black);
 
 font-weight: 700;
 font-size: 36px;
@@ -150,37 +243,66 @@ letter-spacing: 0.03em;
 
 
 }
+.team1{
+      
+    background: var(--white);
+    padding: 0;
+    margin: 0;
+  }
 
 .team{
- /* width: 1600px;
-height: 648px;
-top: 1446px;*/
+display: flex;
+flex-direction: column;
+ background-color: var( --like_white);
+padding:94px 0px;
+
+}
+.team12{
+    padding: 30px  ;
+    gap:10px; 
+    text-align: center; 
+ 
+
+}
+.team-member{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+
+    background:var(--white  );
+    border-radius:  0 0 4px 4px;
+}
+.team h2{
+    margin-bottom: 50px;
+    text-align: center; 
+
+}
+.team ul{
+     list-style-type: none; /* Видалити маркери списку */
+    display: flex; 
+    gap:30px;
 
 }
 .text5{
-	color:  var(--black);
+    color:  var(--black);
 
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 
-
-
 }
 .team1 h3{
-
-	color: var(--black);
+padding-top: 30px;
+padding-bottom: 10px;
+    color: var(--black);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
 letter-spacing:0.03em;
 
 
-
 }
 .team1 p{
-	color: var(--grey);
+    color: var(--grey);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.17;
@@ -188,67 +310,82 @@ letter-spacing: 0.03em;
 
 }
 
-.footer{
-	background: var(--footer_color);
+
+footer{
+    padding: 60px 0;    
+    background: var(--footer_color);
 }
+
+
 .logos{
-	text-decoration: none;
-	color: var(--blue);
-;
-	font-family: Raleway;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--blue);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 28px;
+
 }
 .logos span{
-	color: var(--white);
+    color: var(--white);
 }
 .a {
-	font-style: normal;
+    font-style: normal;
 }
 
 .a p{
-	color: var(--white);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing:0.03em;
 
+    padding-bottom: 12px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing:0.03em;
+}
+
+.a a:hover{
+    color:var(--blue);
 }
 .a a{
-
-	text-decoration: none;
-	color:  var(--grey);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: rgba(255,255,255,0.6);
 
 }
 .bu {
     display: flex; 
     justify-content: center; 
-    gap: 10px; 
-    padding: 20px 0; 
+    gap: 8px; 
+ 
+   
+
 }
 
 .bu button {
     background: var(--like_white); 
     color: var(--black); 
     border: none; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
+    padding: 6px 22px; 
+    border-radius: 4px; 
     cursor: pointer;
     font-weight: 500;
     font-family: var(--font); 
     font-size: 16px; 
-    transition: background-color 0.3s, color 0.3s; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    line-height:  26px;
 }
 
 .bu button:hover {
-    background-color: var(--b); 
+    background-color: var(--blue); 
     color: var(--white); 
 }
 
@@ -260,6 +397,56 @@ letter-spacing: 0.03em;
     background-color:var(--b) ; 
     color: var(--white); 
 }
+.portfolio-items{
+
+    padding: 94px 0;
+}
+.portfolio-items ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 370px); /* 3 стовпці по 370px */
+    gap: 30px; /* Відстань між елементами */
+    justify-content: center; /* Центрує сітку */
+  
+    padding-top:34px;
+ 
+}
+.item1 {
+    border: 1px solid #eee;
+    background: var(--white);
+   
+    padding: 0;
+    margin: 0;
+    width: 370px; 
+}
+
+.item1 img {
+    width: 100%; /* Встановлює зображення по ширині елемента */
+    height: auto; /* Автоматична висота */
+    display: block; /* Забирає можливі відступи зображення */
+}
+
+
+.item2{
+padding-left: 24px;
+padding-bottom: 4px;
+padding-top: 20px;
+
+}
+
+.item3{
+padding-left: 24px;
+padding-bottom: 20px;
+
+}
+.itemss{
+    padding: 20px 24px;
+}
+
+
+
+
+
 .item1 h3 {
 color:  var(--black);
 font-weight: 700;
@@ -267,11 +454,11 @@ font-size: 18px;
 line-height: 2;
 letter-spacing:0.06em;
 }
+
 .item1 p {
 color: var(--grey);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-
-
+}
