@@ -21,19 +21,39 @@ body {
     color:var(--f);
     line-height: 1.6;
     margin: 0;
-    width: 1600px;
+ 
 
 }
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 header{
+     height: 80px;
 display: flex;
 align-items: center;
     border-bottom: 1px solid #eee;
     background: var(--white);
 
 }
+.header-container {
+
+    display: flex;
+    align-items: center;
+      max-width: 1200px;
+margin-left: 215px;
+  margin-right: auto;
+
+}
+
+.nav{
+    margin-left: 93px;
+}
 .nav ul {
 display: flex;
-padding-left: 93px;
 gap:50px;
 
 
@@ -51,14 +71,12 @@ gap:50px;
     font-size: 26px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-left: 215px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+   
 }
 .logo span{
 
     color:  var(--a);
-;
+
 }
 .nav a{
 text-decoration: none;
@@ -79,7 +97,7 @@ color: var(--blue);
 
 .header-contacts{
 display: flex;
-padding-left: 354px;
+margin-left: 354px;
 gap:40px;
 
 }
@@ -105,6 +123,7 @@ letter-spacing: 0.02em;
   flex-direction: column;
  align-items: center;
 text-align: center;
+ justify-content: center;
 
 
 
@@ -120,7 +139,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 200px;
+
 }
 
 
@@ -157,8 +176,8 @@ line-height: 1.36;
 
 
 .services {
-    display: flex; 
-     padding:94px 215px;
+  
+     padding:94px 0px;
 }
 .services ul {
     list-style-type: none; /* Видалити маркери списку */
@@ -197,13 +216,12 @@ letter-spacing: 0.03em;
 display: flex;
  flex-direction: column;
 text-align: center;
-padding-right: 215px;
-padding-left:215px;
-padding-bottom: 47px;
+
+padding-bottom: 94px;
 }
 .gallery h2{
 
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
 }
 
@@ -228,34 +246,33 @@ letter-spacing: 0.03em;
 
 }
 .team1{
-        border: 1px solid #eee;
+      
     background: var(--white);
-   
     padding: 0;
     margin: 0;
-    width: 370px; 
-}
-.team2{
-padding-left: 71px;
-}
-.team3{
-padding-bottom:30px; 
-padding-left: 70px;
-
-}
+  }
 
 .team{
 display: flex;
 flex-direction: column;
  background-color: var( --like_white);
-padding:0px 215px;
-padding-top: 47px;
-padding-bottom: 94px;
-
+padding:94px 0px;
 
 }
+.team12{
+    padding: 30px  ;
+    gap:10px; 
+    text-align: center; 
+ 
+
+}
+.team-member{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+
+    background:var(--white  );
+}
 .team h2{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center; 
 
 }
@@ -297,9 +314,18 @@ letter-spacing: 0.03em;
 
 footer{
     background: var(--footer_color);
-    height: 251px;
-    padding-left: 215px;
+ 
+  
 
+}
+.footer-container{
+width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    height: 251px;
 }
 
 
@@ -354,8 +380,7 @@ footer{
     gap: 8px; 
  
     padding-top: 94px;
-    padding-left: 516px;
-    padding-right: 515px;
+
 }
 
 .bu button {
@@ -369,6 +394,7 @@ footer{
     font-family: var(--font); 
     font-size: 16px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    line-height:  26px;
 }
 
 .bu button:hover {
@@ -391,8 +417,7 @@ footer{
     grid-template-columns: repeat(3, 370px); /* 3 стовпці по 370px */
     gap: 30px; /* Відстань між елементами */
     justify-content: center; /* Центрує сітку */
-    padding-left: 215px;
-    padding-right: 215px;
+  
     padding-top:34px;
  
 }
@@ -423,6 +448,9 @@ padding-top: 20px;
 padding-left: 24px;
 padding-bottom: 20px;
 
+}
+.itemss{
+    padding: 20px 24px;
 }
 
 
